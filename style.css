@@ -1,0 +1,44 @@
+.ui.borderless.titlemenu.menu {
+  padding-top: 20px;
+  box-shadow: none;
+  border: none;
+}
+
+.text.titletext {
+  font-family: serif;
+  font-weight: lighter;
+  font-size: 70px;
+  color: black;
+}
+
+.ui.image.pencilholder {
+  height: 180px;
+}
+
+.ui.image.freeshipping {
+  height: 180px;
+}
+
+.ui.borderless.loginmenu.menu {
+  box-shadow: none;
+  border: none;
+}
+
+.text.logintext {
+  padding-right: 100px;
+}
+
+.ui.borderless.cartmenu.menu {
+  box-shadow: none;
+  border: none;
+}
+
+.text.carttext {
+  padding-right: 90px;
+  font-size: 1.5em;
+}
+
+.ui.borderless.navmenu.menu {
+  box-shadow: none;
+  border: none;
+}

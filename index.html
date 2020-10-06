@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Tokyo Pen Shop</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script type="text/javascript"
+          src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<div class="ui container">
+  <div class="ui borderless titlemenu menu">
+    <div class="ui centered grid container">
+      <a class="item"><img class="ui image pencilholder"
+                           src="https://i.imgur.com/jdBUzTB.png" alt="pencilholder"></a>
+      <a class="item">
+        <div class="text titletext">TOKYO PEN SHOP</div>
+      </a>
+      <a class="item"><img class="ui image freeshipping"
+                           src="https://i.imgur.com/SHwaNeC.png" alt="freeship"></a>
+    </div>
+  </div>
+</div>
+
+<div class="ui container">
+  <div class="ui borderless loginmenu menu">
+    <a class="right item">
+      <div class="text logintext">LOG IN / REGISTER</div>
+    </a>
+  </div>
+</div>
+
+<div class="ui container">
+  <div class="ui borderless cartmenu menu">
+    <a class="right item">
+      <div class="text carttext"><i class="shopping cart icon"></i> 0 - $0.00</div>
+    </a>
+  </div>
+</div>
+
+<div class="ui container">
+  <div class="ui borderless navmenu menu">  <!--create a borderless menu with fitted items, add topmenu to specify-->
+    <div class="ui grid container">
+
+      <div class="ui dropdown item">  <!--remove fitted-->
+        <div class="text">Categories</div>
+        <i class="dropdown icon"></i>
+        <div class="menu">
+          <div class="item">Limited Edition</div>
+          <div class="item">Gel Ink Pens</div>
+          <div class="item">Custom Multis</div>
+          <div class="item">Ballpoint Pens</div>
+          <div class="item">Mechanical Pencils</div>
+        </div>
+      </div>
+
+      <div class="ui dropdown item">
+        <div class="text">Customer Service</div>
+        <i class="dropdown icon"></i>
+        <div class="menu">
+          <div class="item">About Us</div>
+          <div class="item">Log In / Register</div>
+          <div class="item">Create Account</div>
+          <div class="item">Shipping & Returns</div>
+          <div class="item">Privacy Notice</div>
+        </div>
+      </div>
+
+      <a class="item">New Items</a> <!--since there's no dropdown use a-->
+
+      <a class="item">Featured Items</a>
+
+    </div>
+  </div>
+</div>
+
+<!--need javascript to make dropdown work-->
+<script>
+  $('.ui.dropdown')
+      .dropdown()
+  ;
+</script>
+
+</body>
+</html>
